@@ -1,14 +1,23 @@
-p{
-    background-color: blue;
-    font-family: Arial, Helvetica, sans-serif;
-    
-}
+
 h1{
     color:yellow;
     background-color: cadetblue;
-    align-content: center;
+    text-align: center;
     padding: 5%;
+
 }
 #ruslt {
     background-color: chartreuse ;
+}
+#foods{
+background-color: aqua;
+color: blue;
+
+}
+body{
+    background-color: blueviolet;
+}
+.par{
+    background-color: blue;
+    font-family: Arial, Helvetica, sans-serif;
 }
