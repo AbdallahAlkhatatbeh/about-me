@@ -2,12 +2,15 @@
 
 var count = 0;
 var name = prompt('what is your name ? ')
+
     alert("welcome :" + name + "   ");
-    console.log(name);
+    //console.log(name);
 function game1() {
 
 
     var q1 = prompt('Do you think I have brothers?')
+        //console.log(q1);
+
     if (q1.toLocaleLowerCase() == 'yes' || q1.toLocaleLowerCase() == 'y') {
         alert("Correct answer, go to the second question");
         count++;
@@ -17,6 +20,8 @@ function game1() {
     }
 
     var q2 = prompt('Do you think I am a sports person?')
+        //console.log(q2);
+
     if (q2.toLocaleLowerCase() == 'yes' || q2.toLocaleLowerCase() == 'y') {
         alert("Correct answer, go to the third  question");
         count++;
@@ -27,6 +32,8 @@ function game1() {
     }
 
     var q3 = prompt('Do you think I am a smoker?')
+        //console.log(q3);
+
     if (q3.toLocaleLowerCase() == 'yes' || q3.toLocaleLowerCase() == 'y') {
         alert("Wrong answer, I am not a smoker");
 
@@ -37,6 +44,8 @@ function game1() {
     }
 
 var q4 = prompt('Do you think I have a beautiful voice to sing?')
+    //console.log(q4);
+
 if (q4.toLocaleLowerCase() == 'yes' || q4.toLocaleLowerCase() == 'y') {
     alert("Wrong answer, I do not have a beautiful voice to sing  ");
 
@@ -48,6 +57,8 @@ if (q4.toLocaleLowerCase() == 'yes' || q4.toLocaleLowerCase() == 'y') {
 
 
 var q5 = prompt('Do you think I am happy with the programming?')
+    //console.log(q5);
+
 if (q5.toLocaleLowerCase() == 'yes' || q5.toLocaleLowerCase() == 'y') {
     alert("Correct answer, It is the last question, thanks for your time ");
     count++;
@@ -60,6 +71,8 @@ if (q5.toLocaleLowerCase() == 'yes' || q5.toLocaleLowerCase() == 'y') {
 function game2() {
     for (let i = 0; i < 5; i++) {
         var q6 = prompt(' guess number from 1-7 ?');
+            //console.log(q6);
+
         if (q6 == '4') {
             alert("correct answer");
             count++;
@@ -80,6 +93,8 @@ function game3() {
     var i = 0;
     for (i; i < favoritefood.length; i++) {
         var q7 = prompt(' what is my favorite food?');
+            //console.log(q7);
+
         if (q7 == favoritefood[i]) {
             alert("correct answer");
             count++;
